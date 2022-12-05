@@ -1,0 +1,102 @@
+.form-container {
+    width: 500px;
+    margin: 15px auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.form-title {
+    font-size: 35px;
+    color: #2A414F;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+}
+
+.input-group input {
+    width: 380px;
+    height: 40px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-submit {
+    width: 380px;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
+
+}
+
+.page-toggle {
+    text-align: center;
+}
+
+.form-link {
+    text-decoration: none;
+    color: #FF9900;
+}
+
+.form-link:hover {
+    font-weight: 600;
+}
+
+.form-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider-line {
+    width: 170px;
+    height: 2px;
+    background-color: #95A0A7;
+}
+
+.divider-text {
+    margin: 0 10px;
+}
+
+.google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 40px;
+    border: 1px solid #95A0A7;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.google-button:hover {
+    font-weight: 600;
+}
+
+.link-logo {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
