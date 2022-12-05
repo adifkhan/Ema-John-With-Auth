@@ -25,7 +25,7 @@ const SignUp = () => {
     const handleConfirmPassBlur = event => {
         setConfirmPass(event.target.value);
     }
-    const handleSignUp = event => {
+    const handleFormSubmit = event => {
         event.preventDefault();
         if (password !== confirmPass) {
             setError('Password dit not match');
@@ -38,14 +38,14 @@ const SignUp = () => {
         createUserWithEmailAndPassword(email, password);
     }
     if (user) {
-        navigate('/');
+        navigate('/login');
     }
 
     return (
         <div className='form-container'>
             <div>
                 <h2 className='form-title'>Sign Up</h2>
-                <form onSubmit={handleSignUp}>
+                <form onSubmit={handleFormSubmit}>
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
                         <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Enter Email' required />
